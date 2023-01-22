@@ -1,0 +1,114 @@
+html    {
+    font-size: 16px;
+    line-height: 1.4px;
+}
+body    {
+  background-image: url(./docplanner\ career\ image.jpg);
+ }
+
+.navbar {
+    display: inline-flex;
+    height: 78px;
+    width: 1400px;
+    background-color: white;
+    margin-top: -8px;
+    margin-left: -10px;
+    position: fixed;
+    box-shadow: 0 0 0.4px 0;
+     
+}
+h1      {
+    width: 500px;
+}
+
+.Docp {
+    margin-left: 190px;
+    width: 100%;
+}
+
+.navbar    {
+        float: right;
+    }
+.navtxt    {
+     color: dimgrey;
+     float: right;
+     margin-top: -28px;
+     list-style: none;
+     display:flex ;
+     margin-right: 250px;
+     font-size: 15px;
+     font-weight: 500;
+     opacity: 0.7;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.About      {
+      color: lightseagreen;  
+      margin-right: 12px;
+      text-decoration: none;
+    }
+.Career     {
+        color: dimgray;
+        margin-right: 12px;
+        text-decoration: none;
+    }    
+.Career:hover{
+        color: lightseagreen;
+    }    
+    
+
+.dep:hover {
+    
+    color:lightseagreen;
+    
+}
+.dep       {
+    cursor: pointer;   
+
+    }
+.depext {
+        color: red;
+        padding: 12px;
+        list-style: none;
+        background-color: white;
+        margin-top: 10px;
+        display: none;
+        position: fixed;
+        line-height: 20px;
+        margin-left: -100px;
+        width: 195px;
+        height: 200px;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px 0 dimgray;
+        
+        
+       
+    }
+.depext a {
+    
+    color: dimgrey;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
+.depext a:hover {
+         color: lightseagreen;
+       background-color: lightgrey; 
+       width: 102%;
+       margin-left: -11.5px;
+       
+    }
+
+.dep:hover + .depext, .depext:hover {
+display: block;
+}
+
+                                              
+
+
+
