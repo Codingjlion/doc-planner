@@ -1,14 +1,15 @@
 html    {
             font-size: 16px;
             line-height: 1.4px;
-           
+            overflow-x: hidden;
+            
 
         }
 body    {
           background-color: white;
-          padding: 0px;
-          margin: 0px;
-         
+          padding: 0;
+          margin: 0;
+          width:100%;
          }
 
 .navbar {
@@ -126,9 +127,7 @@ h1      {
                 text-align: center;
                 font-size: 38px;
                 margin-top: -31px;
-                display: flex;
                 font-weight: 300;
-                justify-content: center ;
                 font-family:  system-ui, -apple-system, 
                 BlinkMacSystemFont, 
                 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -593,7 +592,7 @@ option {
              }
 .overflowbox   {
                     height: 600px;
-                    width: 1400px;
+                    width:auto;
                     margin-top: 33px;
                     background-color: #e5faf8;
                     display: flex;
@@ -683,7 +682,7 @@ option {
                     margin-left: 15px;
                     color: rgb(71, 71, 71);
                     font-size: 13px;
-                    opacity: 0.7;
+                    opacity: 0.8;
                     font-weight:500;
                     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                 }
@@ -693,7 +692,7 @@ option {
                     color: rgb(71, 71, 71);
                     font-size: 13px;
                     font-weight:500;
-                    opacity: 0.7;
+                    opacity: 0.8;
                     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                 }
 .div2b          {
@@ -714,7 +713,6 @@ option {
                     color: lightseagreen;
                     font-size: 25px;
                     font-weight: 300;
-                    opacity: 0.7;
                     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                 }
 .div2b span       {
@@ -723,7 +721,6 @@ option {
                     color: lightseagreen;
                     font-size: 25px;
                     font-weight:300;
-                    opacity: 0.7;
                     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                 }
 .div2b p       {    
@@ -733,7 +730,7 @@ option {
                     color: rgb(71, 71, 71);
                     font-size: 13.5px;
                     font-weight:500;
-                    opacity: 0.7;
+                    opacity: 0.8;
                     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                 }
 .div2c          {
@@ -753,7 +750,6 @@ option {
                         color: lightseagreen;
                         font-size: 25px;
                         font-weight: 300;
-                        opacity: 0.7;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .div2c span       {
@@ -762,7 +758,6 @@ option {
                         color: lightseagreen;
                         font-size: 25px;
                         font-weight:300;
-                        opacity: 0.7;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .div2c p       {    
@@ -772,7 +767,7 @@ option {
                         color: rgb(71, 71, 71);
                         font-size: 13.5px;
                         font-weight:500;
-                        opacity: 0.7;
+                        opacity: 0.8;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .div2d          {
@@ -793,7 +788,6 @@ option {
                         color: lightseagreen;
                         font-size: 25px;
                         font-weight: 300;
-                        opacity: 0.7;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .div2d span       {
@@ -802,7 +796,6 @@ option {
                         color: lightseagreen;
                         font-size: 25px;
                         font-weight:300;
-                        opacity: 0.7;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .div2d p       {    
@@ -812,9 +805,84 @@ option {
                         color: rgb(71, 71, 71);
                         font-size: 13.5px;
                         font-weight:500;
-                        opacity: 0.7;
+                        opacity: 0.8;
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
+.afteroverflow      {
+                        text-align: center;                 
+                    }
+.afteroverflow p    {
+                        color: lightseagreen;
+                        margin-top: 85px;
+                        margin-right:40px ;
+                        font-size: 30px;
+                        font-weight: 300;
+                        line-height: 43px;
+                        font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+                    }
+.afteroverflow span {
+                        
+                        font-size: 14px;
+                        line-height: 1.5;
+                        font-weight: 400;
+                        color: dimgray;
+                        opacity: 0.9;
+                        font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+                    }
+.parent             {
+                        background-color: red;
+                        width: 970px;
+                        height: 100%;
+                        margin-left: 180px;
+                        margin-top: 20px;
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax
+                        (300px, 300px));
+                        
+                    }
+.warsaw             {
+                        background-color: blue;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+.barcelona          {
+                        background-color: green;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+.munich             {
+                        background-color: white;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+.istanbul           {
+                        background-color: black;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+.rome               {
+                        background-color: grey;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+.bologna            {
+                        background-color: yellow;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 350px;
+                        width: 307px;
+                    }
+                    
                
                 
                 
