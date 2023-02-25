@@ -183,25 +183,50 @@ span {
         background-color: turquoise;
         margin-left: 13px;
         border-radius: 10px;
+        
+        opacity: 1;
+        transition: all 0.3s ease 0s;
         font-family: Arial, Helvetica, sans-serif;
         
         }
+#box1:hover {
+                opacity: 0.8;
+             
+                }
 
 #box2   {
     height: 350px;
     width: 318px;
     background-color: cornflowerblue;
     border-radius: 10px;
+    transition: all 0.4s ease 0s;
+    
+    opacity: 1;
     font-family: Arial, Helvetica, sans-serif;
         }
+
+#box2:hover {
+    
+            opacity: 0.8;
+        }
+
 #box3   {
     height: 350px;
     width: 318px;
     background-color: #1b2734;
     margin-right: 13px;
     border-radius: 10px;
+    opacity: 1;
+    transition: all 0.55s ease 0s;
+    
+    opacity: 1;
     font-family: Arial, Helvetica, sans-serif;
  }
+
+#box3:hover {
+    
+    opacity: 0.8;
+}
  .box1a {
             height: 310px;
             width: 268px;
@@ -654,11 +679,29 @@ option {
                 width:227px;
                 margin-top:30px;
                 border-radius: 5px;
+                 
                 
                 }
+
+.div2a {
+    transition: all 0.35s ease 0s;
+}
+.div2b {
+    transition: all 0.35s ease 0s;
+}
+.div2c {
+   
+    transition: all 0.35s ease 0.3s;
+}
+.div2d {
+    transition: all 0.35s ease 0.5s;
+}
+
+
 .div2a img        {
                     margin-top: 27px;
                     margin-left: 90px;
+                    
                 }
 .div2a h1       {
                     margin-left: 50px;
@@ -702,6 +745,7 @@ option {
                 margin-left: 250px;
                 margin-top: -280px;
                 border-radius: 5px;
+                
                 }
 .div2b img      {
                 margin-top: 50px;
@@ -830,58 +874,276 @@ option {
                         font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
                     }
 .parent             {
-                        background-color: red;
-                        width: 970px;
+    background-color: re;
+                        width: 990px;
                         height: 100%;
                         margin-left: 180px;
                         margin-top: 20px;
                         display: grid;
+                        grid-template-columns: 3fr 3fr 3fr;
+                        
                         grid-template-columns: repeat(auto-fill, minmax
                         (300px, 300px));
                         
                     }
-.warsaw             {
+.parent img         {
+                        border-radius: 5px 5px 0px 0px;
                         background-color: blue;
-                        margin-top: 10px;
-                        margin-left: 10px;
-                        height: 350px;
-                        width: 307px;
+                        
                     }
-.barcelona          {
-                        background-color: green;
+.parent a          {   
+                        text-decoration:none;                      
+              
+                    }
+.parent h3          {
+                        margin-top: 35px;
+                        color: dimgray;
+                        font-weight: 490;
+                        margin-left: 20px;
+                        opacity: 0.8;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+.parent p           {
+                        background-color: rgb(61, 131, 223);
+                        width: 105px;
+                        height: 29px;
+                        text-align: center;
+                        float:right;
+                        color: white;
+                        font-size: 10.5PX;
+                        margin-top: -35PX;
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        font-weight: 700;
+                        opacity: 0.7;
+                        text-decoration:none;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                        
+                    }
+.parent p:hover      {
+                        background-color: blue;
+                    }
+.warsaw             {
+                        background-color: white;
                         margin-top: 10px;
                         margin-left: 10px;
-                        height: 350px;
+                        height: 345px;
                         width: 307px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.warsaw:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
+                    }
+
+.barcelona          {
+                        background-color: white;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 345px;
+                        width: 307px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.barcelona:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
                     }
 .munich             {
                         background-color: white;
                         margin-top: 10px;
                         margin-left: 10px;
-                        height: 350px;
+                        height: 345px;
                         width: 307px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.munich:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
                     }
 .istanbul           {
-                        background-color: black;
+                        background-color: white;
                         margin-top: 10px;
                         margin-left: 10px;
-                        height: 350px;
+                        height: 345px;
                         width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.istanbul:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
                     }
 .rome               {
-                        background-color: grey;
+                        background-color: white;
                         margin-top: 10px;
                         margin-left: 10px;
-                        height: 350px;
+                        height: 345px;
                         width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.rome:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
                     }
 .bologna            {
-                        background-color: yellow;
+                        background-color: white;
                         margin-top: 10px;
                         margin-left: 10px;
-                        height: 350px;
+                        height: 345px;
                         width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
                     }
+.bologna:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
+                    }
+.curitiba           {
+                        background-color: white;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 345px;
+                        width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.curitiba:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
+                    }
+.Rio                {
+                        background-color: white;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 345px;
+                        width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.Rio:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
+                    }
+.mexico             {
+                        background-color: white;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        height: 345px;
+                        width: 307px;
+                        margin-top: 20px;
+                        border-radius: 7px;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                       
+                    }
+.mexico:hover      {
+                        cursor: pointer;
+                        box-shadow: 7px 7px 8px 14px rgb(218, 216, 216);
+                        opacity: 0.7px;
+                        
+                    }
+
+.sound h2           {   
+                        color: black;
+                        text-align: center;
+                        font-size: 31px;
+                        margin-top: 90px;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                        opacity: 0.9;
+                        font-family:  system-ui, -apple-system, 
+                        BlinkMacSystemFont, 
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+                        'Open Sans', 'Helvetica Neue', sans-serif;
+                        
+                    }
+.sound p          {
+                        background-color: rgb(61, 131, 223);
+                        width: 210px;
+                        letter-spacing: 0.64px;
+                        height: 32px;
+                        text-align: center;
+                        color: white;
+                        font-size: 12PX;
+                        margin-top: 40px;
+                        padding-top: 8px;
+                        margin-left: 570px;
+                        border-radius: 4px;
+                        font-weight: 700;
+                        
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+                    }
+a:link   {
+    text-decoration: none !important;
+}
+.sound p:hover      {
+    background-color: blue;
+}
+footer              {
+                        margin-top: 83px;
+                        height: 128px;
+                        background-color: white;
+                        box-shadow: 0px 0px 1px 0px rgb(190, 189, 189);
+                        text-align: center;
+                        color: rgb(171, 171, 171);
+                        font-size: 13.4px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        opacity: 0.9;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 9Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+.footerT            {
+                        
+                        position:absolute;
+                        height: 100px;
+                        margin-top: 20px;
+                        width: 900px;
+                        margin-left: 248px;
+                    }
+.footer a           {
+                        color:rgb(61, 131, 223);
+                        font-weight: 500;
+                        
+                    } 
+.footerT span        {
+                         margin-top:30px;
+                          
+                    }                          
+                  
+
+                    
                     
                
                 
